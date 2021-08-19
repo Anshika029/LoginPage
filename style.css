@@ -1,0 +1,144 @@
+html,
+body {
+    height: 100%
+}
+
+body {
+    background: linear-gradient(117.06deg, #4EC8FC 2.2%, rgba(144, 78, 252, 0.67) 88.15%);
+    display: grid;
+    place-items: center
+}
+
+.card {
+    padding: 0px 15px;
+    border-radius: 20px
+}
+
+.c1 {
+    /* background-color: #fff2f1; */
+    border-radius: 20px
+}
+
+a {
+    margin: 0px;
+    font-size: 13px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    color: #e0726c;
+    background-color: #fff2f1
+}
+
+.nav-link {
+    padding: 1rem 1.4rem;
+    margin: 0rem 0.7rem
+}
+
+.ac {
+    font-weight: bold;
+    color: #e0726c;
+    font-size: 12px
+}
+h3{
+    position: absolute;
+left: 10.17%;
+right: 9.22%;
+top: 3.38%;
+bottom: 92.77%;
+justify-content: center;
+text-align: center;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+
+color: #000000;
+}
+input,
+button {
+    width: 96%;
+    background-color: #fff2f1;
+    border-radius: 8px;
+    padding: 8px 17px;
+    font-size: 13px;
+    border: 1px solid #f5f0ef;
+    color: #dccece
+}
+
+input {
+    text-decoration: none;
+    background: rgba(228, 241, 255, 0.78);
+border-radius: 6.99346px;
+
+}
+
+.bt {
+    background-color: #ff4133;
+    border: 1px solid rgb(300, 200, 200)
+}
+
+/* form {
+    margin-top: 70px
+} */
+
+form>* {
+    margin: 10px 0px
+}
+
+#forgot {
+    margin: 0px -60px
+}
+
+#register {
+    text-align: center
+}
+
+img {
+    background-color: antiquewhite
+}
+
+.wlcm {
+    font-size: 30px
+}
+
+.sp1 {
+    font-size: 5px
+}
+
+.sp1>span {
+    background-color: #f0c3be
+}
+.icon_l{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 55%;
+}
+
+.icon_m{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 48.5%;
+}
+
+@media(max-width: 766px) {
+    .img-fluid{
+        display: none;
+    }
+}
+
+@media(max-width: 1295px){
+    .icon_l{
+        margin-left: 42%;
+    }
+}
+
+@media(max-width: 1295px){
+    .icon_m{
+          margin-left: 33.5%;
+    }
+}
